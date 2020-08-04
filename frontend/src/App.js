@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-d
 
 import Users from './user/pages/Users'
 import NewRecipe from './recipes/pages/NewRecipe';
-import MainNavigation from './shared/components/UIElements/Navigation/MainNavigation';
+import MainNavigation from './shared/components/Navigation/MainNavigation';
 
 const App = () => {
   return (
